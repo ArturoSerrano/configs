@@ -4,7 +4,5 @@ spring:
   profiles: pcf
 gateway:
   routes:
-    tenant-query-api:
-      - tenant-query-api
-    tenant-command-api:
-      - tenant-command-api
+    tenant-query-api: tenant-query-api
+    tenant-command-api: tenant-command-api
