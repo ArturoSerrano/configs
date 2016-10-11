@@ -1,8 +1,6 @@
 configuration:
  projectName: tenant-gateway
 spring:
-  profiles: docker
-server:
-  port: 80
+  profiles: pcf
 app:
   version: 12
