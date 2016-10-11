@@ -1,0 +1,8 @@
+configuration:
+ projectName: tenant-gateway
+spring:
+  profiles: docker
+server:
+  port: 91
+app:
+  version: 1
