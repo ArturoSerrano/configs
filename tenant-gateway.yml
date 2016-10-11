@@ -3,4 +3,4 @@ configuration:
 spring:
   profiles: pcf
 app:
-  version: 13
+  version: 2
