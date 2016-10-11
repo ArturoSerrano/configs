@@ -1,6 +1,9 @@
 configuration:
  projectName: tenant-gateway
 spring:
+  cloud:
+    config:
+      label: test
   profiles: pcf
 app:
   version: 3
