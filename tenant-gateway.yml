@@ -2,5 +2,9 @@ configuration:
  projectName: tenant-gateway
 spring:
   profiles: pcf
-app:
-  version: 2
+gateway:
+  routes:
+    tenant-query-api:
+      - tenant-query-api
+    tenant-command-api:
+      - tenant-command-api
