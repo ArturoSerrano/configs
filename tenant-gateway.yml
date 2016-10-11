@@ -3,6 +3,6 @@ configuration:
 spring:
   profiles: docker
 server:
-  port: 91
+  port: 80
 app:
   version: 1
